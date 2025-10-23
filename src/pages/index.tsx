@@ -64,14 +64,14 @@ export default function TechFixWebsite() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
         <div className="relative flex items-center h-20">
           {/* Logo (left) */}
-          <div className="flex items-center space-x-2 md:space-x-6 cursor-pointer md:w-72 lg:w-96" onClick={() => navigateTo('home')}>
+          <div className="flex items-center space-x-2 md:space-x-4 cursor-pointer md:w-72 lg:w-96" onClick={() => navigateTo('home')}>
             <div className="w-9 h-9 md:w-12 md:h-12 bg-gradient-to-br from-[#6366F1] to-[#8B5CF6] rounded-lg flex items-center justify-center">
               <Wrench className="md:w-9 md:h-9 text-white" />
             </div>
             <div>
-              <span className="text-lg md:text-2xl font-bold text-[#E6EAF2]">Ай Молодець</span>
+              <span className="text-lg md:text-xl font-bold text-[#E6EAF2]">Ай Молодець</span>
               <br />
-              <span className="text-sm md:text-lg text-[#6D7AAD]">{t('service_logo')}</span>
+              <span className="text-sm md:text-md text-[#6D7AAD]">{t('service_logo')}</span>
             </div>
           </div>
 
@@ -398,7 +398,7 @@ export default function TechFixWebsite() {
   const FloatingCallButton = () => (
     <a 
       href="tel:+380671234567" 
-      className="hidden md:flex fixed bottom-12 left-12 w-20 h-20 rounded-full items-center justify-center shadow-lg hover:shadow-[0_0_0_1px_rgba(139,92,246,0.25),_0_10px_30px_rgba(99,102,241,0.25)] transition-all hover:scale-110 z-40"
+      className="hidden md:flex fixed bottom-12 left-6 w-18 h-18 rounded-full items-center justify-center shadow-lg hover:shadow-[0_0_0_1px_rgba(139,92,246,0.25),_0_10px_30px_rgba(99,102,241,0.25)] transition-all hover:scale-110 z-40"
       style={{ background: 'linear-gradient(135deg, #6366F1 10%, #8B5CF6 90%)' }}
     >
       <Phone className="w-12 h-12 text-white" />
